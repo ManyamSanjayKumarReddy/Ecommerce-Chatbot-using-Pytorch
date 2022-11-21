@@ -1,0 +1,146 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hii there",
+        "anyone here?",
+        "I am Fine"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "greet",
+      "patterns": [
+        "How are you"
+      ],
+      "responses": [
+        "Iam Fine and what About you ?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Courses",
+        "Which courses do you have?",
+        "What kinds of courses are there?",
+        "What do you sell?",
+        "What are the courses and projects available?"
+        
+      ],
+      "responses": [
+        "We are offering a lot of courses on various domains please visit our website www.website.tws.org.in",
+        "we offer more than 40+ courses in our edtech company."
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "Projects",
+        "Which projects do you have?",
+        "What kinds of projects are there?",
+        "What do you sell?",
+        "What are the courses and projects available?"
+        
+      ],
+      "responses": [
+        "We are offering a lot of projects on various domains please visit our website www.website.tws.org.in",
+        "we offer more than 20+ projects in our edtech company.",
+        "We offer more projects with end to end implementation"
+        
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "Are the courses are mininal price?",
+        "Are the courses affordable"
+        
+      ],
+      "responses": [
+        "We accept VISA, Mastercard",
+        "We accept most major credit cards",
+        "We accept all the UPI payments",
+        "We offer courses in the most affordable prices."
+      ]
+    },
+    {
+      "tag": "classes",
+      "patterns": [
+        "classes",
+        "Online or oflfine",
+        "What type of classes you have?",
+        "Are the courses are online or offline?",
+        "Do you have assignments in the last of the courses?"
+      ],
+      "responses": [
+        "Yes we offer Online Mode and also Offline Mode with the comfortability of the students",
+        "We will have both Online and offline mode of classes and we will provide assignments and quizes."
+      ]
+    },
+    {
+      "tag": "team",
+      "patterns": [
+        "Who is the founder of this edtech company?",
+        "Founder of this website",
+        "Founder"
+        
+      ],
+      "responses": [
+        "Manyam Sanjay Kumar Reddy is the Founder of this Online Edtech Company"
+      ]
+    },
+    {
+      "tag": "bot",
+      "patterns": [
+        "Who are you",
+        "what is your name",
+        "what about yourself"
+        
+      ],
+      "responses": [
+        "Iam a tws bot powered by Tutorials with Sanju."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
